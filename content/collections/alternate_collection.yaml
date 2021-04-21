@@ -1,0 +1,9 @@
+title: 'Alternate Collection'
+template: alternate_collection/show
+layout: layout
+revisions: false
+route: 'second/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

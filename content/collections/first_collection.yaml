@@ -1,0 +1,9 @@
+title: 'First Collection'
+template: first_collection/show
+layout: layout
+revisions: false
+route: 'first/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
